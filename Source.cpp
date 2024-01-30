@@ -620,7 +620,7 @@ int main()
 			cout << setw(60) << "----------------------------" << endl; cout << endl;
 			string word;
 			cout << "Tell us the word whose suggestion you want-> ";
-			cin.ignore();
+			//cin.ignore();
 			getline(cin, word);
 			obj.wordSuggestion(word);
 			system("pause");
